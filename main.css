@@ -4,11 +4,21 @@
     box-sizing: border-box;
 }
 .container{
+    max-width: 100%;
     width: 1000px;
     height: 800px;;
     margin: 0 auto;
-    background-color:blue ;
+    
 }
 h1,p{
     text-align: center;
+}
+
+.float{
+    float: left;
+}
+.column{
+    width: calc(100% / 3);
+    padding: 10px;
+    float: left;
 }
