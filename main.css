@@ -71,4 +71,9 @@ img{
     
 
 }
+.description> p{
+    color: rgb(207, 207, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 
