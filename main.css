@@ -7,14 +7,24 @@
     max-width: 100%;
     width: 1000px;
     padding: 20px;
-    padding-bottom: 20px;;
+    padding-bottom: 20px;
 
     margin: 0 auto;
     
     
 }
-h1,p{
+#intro{
     text-align: center;
+    padding: 30px;
+    font-family: 'DM Sans', sans-serif;
+     
+
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Secular One', sans-serif;
+    color: red;
 }
 
 
@@ -28,6 +38,8 @@ h1,p{
     background-color: black;
     color: white;
     margin: 5px;
+    
+    
 
     
     
@@ -38,10 +50,6 @@ h1,p{
     color: blue;
 }
 
-.section{
-    width: calc( 100% / 3);
-    padding: 5px;
-}
 
 
 img{
