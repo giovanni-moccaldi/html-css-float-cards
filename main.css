@@ -14,11 +14,15 @@ h1,p{
     text-align: center;
 }
 
-.float{
-    float: left;
-}
+
+
 .column{
-    width: calc(100% / 3);
-    padding: 10px;
-    float: left;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+
+    
+}
+.description{
+    float: right;
 }
