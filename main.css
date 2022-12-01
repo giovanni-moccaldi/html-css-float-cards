@@ -16,13 +16,30 @@ h1,p{
 
 
 
-.column{
+.row{
     height: 200px;
     width: 200px;
     border: 1px solid black;
+    float:left
 
     
 }
+
+
+img{
+    float: left;
+    width: 100px;
+    height: 50px;
+
+}
 .description{
-    float: right;
+    float: left;
+
+}
+.padre::after{
+    content:'';
+    display: table;
+    clear: both;
+
+
 }
